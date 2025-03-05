@@ -1,11 +1,11 @@
 {
-  "name": "my-v0-project",
+  "name": "crypto",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "npm cache clean --force && next build",
-    "install-go-deps": "npm install",
+    "install-go-deps": "go get ./...",
     "start": "next start",
     "lint": "next lint"
   },
