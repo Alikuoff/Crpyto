@@ -9,12 +9,6 @@ import Link from "next/link"
 import { ExternalLink, Info, Database, Shield, Zap, Globe } from "lucide-react"
 import { useLanguage } from "@/lib/language-context"
 
-export const metadata = {
-  title: "About CryptoMarket | Real-time cryptocurrency data",
-  description:
-    "Learn about CryptoMarket, our mission, data sources, and how we provide real-time cryptocurrency information",
-}
-
 export default function AboutPage() {
   const { t } = useLanguage()
   const [activeTab, setActiveTab] = useState("about")
